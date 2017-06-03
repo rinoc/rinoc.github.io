@@ -1,0 +1,51 @@
+.post-title {
+  font-family: $sans;
+  margin-bottom: 5px;
+}
+
+.post-meta time {
+  font-style: italic;
+}
+
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 10px solid black;
+}
+
+.page-content {
+  padding-top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+blockquote {
+  letter-spacing: normal;
+  margin: 2em 0;
+}
+
+.post-content h2 {
+  margin: 2rem 0;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.site-header,
+.site-footer {
+  font-family: $sans;
+  font-size: 0.9rem;
+}
+
+.site-nav .page-link {
+  font-size: 1.2rem;
+  color: #828282;
+  &:hover {
+    text-decoration: none;
+  }
+}
